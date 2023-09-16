@@ -7,6 +7,10 @@
     <title>[King Leong,Fong] - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,8 +25,6 @@
             <li><a href="">Site Plan</a></li>|
             <li><a href="">Form</a></li>|
         </ul>
-
-
 
     </nav>
     <main>
@@ -39,14 +41,15 @@
             </ul>
         </section>
 
-        <section class="card">
+        <section class="card1">
             <h3>Information</h3>
         </section>
     </main>
     <footer>
-        <P>&copy <span id="currentYear"></span> copyright 2024</span>| King Long,Fong | Hong Kong</P>
-        <P>lastModified:</P>
+        <P class="copyright">&copy;<span id="currentYear"></span>| King Long,Fong | Hong Kong</P>
+        <P>lastModified:<span id="lastModified"></span></P>
     </footer>
+    <script src="scripts/getDates.js"></script>
 
 </body>
 
