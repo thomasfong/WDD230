@@ -5,11 +5,12 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
 
 header {
-    background-color: #cedbcd;
+    background-color: #4682B4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,8 +21,15 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    margin-top: 25px;
+    margin-left: 20px;
+    text-decoration: dotted;
+
+}
+
 nav {
-    background-color: #8ecae6;
+    background-color: #219ebc;
 }
 
 nav ul {
@@ -37,9 +45,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 nav .active {
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
 }
