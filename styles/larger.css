@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (min-width: 38rem) {
     main {
         display: grid;
@@ -38,3 +39,45 @@
         border-radius: 15px;
     }
 }
+=======
+@media only screen and (min-width: 38rem) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    main h2 {
+        grid-column: 1 / span 2;
+    }
+
+    .card {
+        color: #fb8500;
+        background-color: #219ebc;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30PX;
+        border: #fb8500 solid;
+
+    }
+
+    ul {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+        background-color: #219ebc;
+        padding: 20px;
+        border: #fb8500 solid;
+        border-radius: 15px;
+    }
+
+    .card1 {
+        text-align: center;
+        font-size: 30px;
+        background-color: #ffb703;
+        padding: .5rem;
+        margin: 25px 25px 20px;
+        border: black solid;
+        border-radius: 15px;
+    }
+}
+>>>>>>> e3d548d72b3b91787ec58d4b4a95a8e53cf477f9

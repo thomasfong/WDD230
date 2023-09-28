@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -38,4 +39,46 @@ footer {
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 3;
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header {
+    background: lightpink;
+    padding: 2rem;
+    grid-column: 1 / 3;
+}
+
+nav {
+    grid-column: 1 / 3;
+    background-color: #bed;
+    padding: 1rem;
+}
+
+main {
+    background: coral;
+    height: 100%;
+    padding: 1rem;
+}
+
+aside {
+    background: yellow;
+    grid-column: 2 / 3;
+    padding: 1rem;
+}
+
+footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 3;
+>>>>>>> e3d548d72b3b91787ec58d4b4a95a8e53cf477f9
 }
