@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -171,63 +170,3 @@ h3 {
     font-size: 3rem;
     cursor: pointer;
 }
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-}
-
-header {
-    background-color: #4682B4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    margin-top: 25px;
-    margin-left: 20px;
-    text-decoration: dotted;
-
-}
-
-nav {
-    background-color: #219ebc;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: .5rem;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-nav .active {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-footer {
-    text-align: center;
-    margin-top: 100px;
-}
->>>>>>> e3d548d72b3b91787ec58d4b4a95a8e53cf477f9
