@@ -1,6 +1,10 @@
-var date = new Date();
-var year = date.getFullYear();
-document.getElementById('currentYear').innerHTML = year;
+let lastModifiedString = new Date(document.lastModified);
+oLastModif = lastModifiedString.toUTCString();
+document.getElementById('lastModified').innerHTML = `Last modified: ${oLastModif}`;
 
-let text = document.lastModified;
-document.getElementById("lastModified").innerHTML = text;
+let d = new Date();
+let currentYear = d.getFullYear();
+document.getElementById('copyRight').innerHTML = `&copy ${currentYear} William Keel &#127482;&#127480`;
+
+
+
