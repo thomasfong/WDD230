@@ -184,3 +184,127 @@ footer a {
     padding: 5px;
     margin-left: 5px;
 }
+
+
+/* Discover page*/
+
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+
+img {
+    vertical-align: middle;
+    ;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column1 {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.Headline {
+    font-size: 30px;
+    color: white;
+    background-color: #219ebc;
+    height: 120px;
+    width: 700px;
+    margin: 120px 10px 100px 700px;
+    padding: 30px 20px 30px 20px;
+    border: #fb8500 solid;
+    border-radius: 15px;
+}
+
+.Headline1 {
+    background-color: #219ebc;
+    color: white;
+    font-size: 40px;
+    height: 250px;
+    width: 1900px;
+    line-height: 65px;
+    margin: 150px 60px 100px 60px;
+    padding: 30px 30px 30px 30px;
+    border: #fb8500 solid;
+    border-radius: 15px;
+}
