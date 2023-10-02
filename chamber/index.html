@@ -3,7 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css.">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/weather.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,8 +36,9 @@
     </div>
 
     <button class="tablink" onclick="openCity('Home', this, '#219ebc')" id="defaultOpen"><a
-            href="Home.html">Home</a></button>
-    <button class="tablink" onclick="openCity('Discover', this, '#4682B4')"><a href="#">Discover</a></button>
+            href="index.html">Home</a></button>
+    <button class="tablink" onclick="openCity('Discover', this, '#4682B4')"><a
+            href="discover.html">Discover</a></button>
     <button class="tablink" onclick="openCity('Events', this, '#fb8500')"><a href="#">Events</a></button>
     <button class="tablink" onclick="openCity('Contact', this, '#ffb703')"><a href="#">Contact
             us</a></button>
@@ -50,6 +52,15 @@
             <button><a href="https://www.youtube.com/watch?v=gYO1uk7vIcc">click here</a></button>
         </div>
     </div>
+    <div class="weather-card">
+        <h2 class="city">Kwahu</h2>
+        <p class="description">Partly Cloudy</p>
+        <div class="temperature">
+            <span class="current">25°C</span>
+            <span class="min-max">Min: 20°C / Max: 28°C</span>
+        </div>
+        <p class="icon">🌞</p>
+    </div>
     <h2></h2>
     <p></p>
     <br>
@@ -58,9 +69,9 @@
             <img src="images/Discover.jpg" alt="Mike" style="width:100%">
             <div class="container">
                 <h2>Discover</h2>
-                <p class="title" href="#">發現</p>
+                <p class="title" href="discover.html">發現</p>
                 <p>You can learn more about Hong Kong travel information here</p>
-                <p><button class="button"><a href="#">click here</a></button></p>
+                <p><button class="button"><a href="discover.html">click here</a></button></p>
             </div>
         </div>
     </div>
