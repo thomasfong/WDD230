@@ -71,6 +71,7 @@ main {
 #card1 {
     grid-column: 1;
     grid-row: 15;
+    font-size: 30px;
 }
 
 footer {
