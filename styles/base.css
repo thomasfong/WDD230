@@ -77,3 +77,8 @@ main {
 footer {
     max-width: 640px;
 }
+
+#lastModified {
+    font-size: 18px;
+    color: yellow;
+}
