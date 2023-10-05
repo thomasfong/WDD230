@@ -56,23 +56,25 @@ nav.active {
     background-color: (0, 0, 0, 0.3);
 }
 
+
+
 main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+#container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr 1fr 1fr;
-
+    grid-template-columns: 30% 30% 30%;
 }
 
-#card {
-    grid-column: 1;
-    grid-row: 14;
+form {
+    display: flex;
+    justify-content: center;
+    background-color: #2c7584;
+    margin: 20px 20px 20px 20px;
 }
 
-#card1 {
-    grid-column: 2;
-    grid-row: 15;
-    font-size: 30px;
-}
 
 footer {
     margin-top: 1000px;
