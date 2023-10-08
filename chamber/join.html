@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/weather.css">
+</head>
+
+<body>
+
+    <div id="Home" class="tabcontent">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/Chamber of Commerce.JPG" alt="funlife Logo">
+            <h1 id="Fun">Hong Kong Tourism Developers Chamber</h1>
+            <p id="Fun">Welcome to our Web page</p>
+    </div>
+
+    <div id="Discover" class="tabcontent">
+        <h1>Discover</h1>
+        <p>You can learn more about Hong Kong travel information here</p>
+    </div>
+
+    <div id="join" class="tabcontent">
+        <h1>join us</h1>
+        <p>Learn about recent chamber of commerce join us</p>
+    </div>
+
+    <div id="Contact me" class="tabcontent">
+        <h1>Directory</h1>
+        <p>If you want to cooperate with us please contact us</p>
+    </div>
+
+    <button class="tablink" onclick="openCity('Home', this, '#219ebc')" id="defaultOpen"><a
+            href="index.html">Home</a></button>
+    <button class="tablink" onclick="openCity('Discover', this, '#4682B4')"><a
+            href="discover.html">Discover</a></button>
+    <button class="tablink" onclick="openCity('join us', this, '#fb8500')"><a href="#">join us</a></button>
+    <button class="tablink" onclick="openCity('Contact', this, '#ffb703')"><a href="#">Contact
+            us</a></button>
+
+    <body>
+
+        <main>
+            <section class="joinpage">
+                <div id="formmessage"></div>
+                <h1>Join Us</h1>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Subscribe Form</legend>
+                        <label class="top">First Name* <input type="text" name="username" id="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="username" id="lname" required></label>
+                        <label class="top">Position <input type="text" name="position" id="position"
+                                pattern="[A-Za-z -]{7,}"></label>
+                        <label class="top">Email* <input type="email" id="email" name="email"
+                                title="Please enter a valid email address" required
+                                placeholder="youremail@mail.com"></label>
+
+                        <label class="top">Phone* <input type="tel" name="phone" id="phone" required></label>
+                        <label class="top">Business Name* <input type="text" name="bname" id="bname" required></label>>
+
+                        <label><input type="hidden" name="timestamp" id="timestamp" value=""></label>
+
+                        <input type="submit" value="Subscribe" class="submitBtn">
+                    </fieldset>
+
+                </form>
+
+                <div class="ribbon-wrap">
+                    <div class="ribbon">Join us!</div>
+                </div>
+                </div>
+
+
+
+    </body>
+
+    <footer>
+
+        <div class="social">
+
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+
+            <a href="https://whatsapp.com" target="_blank">
+                <img src="images/whatsapp icon.png" alt="whatsapp icon">
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+
+                <a href="https://wechat.com" target="_blank">
+                    <img src="images/wechat.png" alt="wechat icon">
+
+                    <a href="https://workspace.google.com/" target="_blank">
+                        <img src="images/gmail.png" alt="gmail icon">
+                    </a>
+
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/youtube.png" alt="youtube icon">
+                    </a>
+
+                    <P class="copyright">&copy;2023 <span id="currentdate"></span> | Thomas Fong | Hong Kong</P>
+                    <P class="lastModified"><span id="lastModified"></span></P>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+
+</html>
