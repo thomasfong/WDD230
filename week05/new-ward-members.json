@@ -1,0 +1,28 @@
+{
+    "familyName": "Hei",
+    "moveDate": "29/12/2012",
+    "numfamily": "5",
+    "vistedbybishopric": "yes",
+    "familymenbers": [
+        {
+            "name": "Ting",
+            "gender": "female",
+            "birthdate": "26/11/1984"
+        },
+        {
+            "name": "Shek",
+            "gender": "male",
+            "birthdate": "25/2/2014"
+        },
+        {
+            "name": "Xun",
+            "gender": "female",
+            "birthdate": "20/3/2019"
+        },
+        {
+            "name": "Sin",
+            "gender": "female",
+            "birthdate": "25/4/2022"
+        }
+    ]
+}

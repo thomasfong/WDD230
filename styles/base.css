@@ -91,3 +91,7 @@ footer {
     font-size: 2rem;
     cursor: grab;
 }
+
+ol::before {
+    content: url();
+}
