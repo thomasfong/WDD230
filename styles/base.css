@@ -95,3 +95,7 @@ footer {
 ol::before {
     content: url();
 }
+
+#weather-icon {
+    width: 50px;
+}

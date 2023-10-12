@@ -105,3 +105,15 @@ main {
     font-size: 2rem;
     font-family: "Great Vibes", serif;
 }
+
+iframe {
+    width: 100%;
+}
+
+.weather {
+    margin-right: 30%;
+}
+
+li a {
+    margin-right: 5px;
+}
