@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(34, 5, 5);
-    color: white;
+    background-color: #8ecae6;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -15,18 +14,16 @@ h3 {
 }
 
 #cards {
-
     display: flex;
     flex-wrap: wrap;
 }
 
 div {
-
-    margin: 3%;
-    border: 2px solid gray;
-    border-radius: 6px;
+    margin: 5%;
+    border: 4px solid #ffb703;
+    border-radius: 10px;
 }
 
 div:hover {
-    box-shadow: 0 0 50px #f8f8f8;
+    box-shadow: 0 0 50px #fb8500;
 }
