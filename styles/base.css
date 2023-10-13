@@ -69,9 +69,9 @@ main {
 }
 
 #card1 {
-    grid-column: 2;
-    grid-row: 15;
-    font-size: 30px;
+    grid-column: 3;
+    grid-row: 14;
+    font-size: 20px;
 }
 
 footer {
