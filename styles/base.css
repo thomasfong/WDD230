@@ -96,6 +96,21 @@ ol::before {
     content: url();
 }
 
-#weather-icon {
+h3 {
+    padding: 20px;
+}
+
+#weather-icon img {
     width: 50px;
+    margin-bottom: -2%;
+}
+
+.weather {
+    margin-top: 0.5%;
+    margin-right: 10%;
+}
+
+li a {
+    padding-right: 10px;
+    border-right: 1px solid gray;
 }
