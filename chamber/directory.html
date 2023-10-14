@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>directory</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<header>
+    <div id="Home" class="tabcontent">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/Chamber of Commerce.JPG" alt="funlife Logo">
+            <h1 id="Fun">Hong Kong Tourism Developers Chamber</h1>
+            <p id="Fun">Welcome to our Web page</p>
+    </div>
+
+    <div id="Discover" class="tabcontent">
+        <h1>Discover</h1>
+        <p>You can learn more about Hong Kong travel information here</p>
+    </div>
+
+    <div id="Events" class="tabcontent">
+        <h1>Events</h1>
+        <p>Learn about recent chamber of commerce events</p>
+    </div>
+
+    <div id="Contact me" class="tabcontent">
+        <h1>Contact us</h1>
+        <p>If you want to cooperate with us please contact us</p>
+    </div>
+
+    <button class="tablink" onclick="openCity('Home', this, '#219ebc')" id="defaultOpen"><a
+            href="index.html">Home</a></button>
+    <button class="tablink" onclick="openCity('Discover', this, '#4682B4')"><a
+            href="discover.html">Discover</a></button>
+    <button class="tablink" onclick="openCity('Events', this, '#fb8500')"><a href="#">Events</a></button>
+    <button class="tablink" onclick="openCity('Contact', this, '#ffb703')"><a href="#">Contact
+            us</a></button>
+
+</header>
+
+<body>
+    <main>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+
+        <article class="grid">
+            <div id="direc"></div>
+        </article>
+
+
+
+    </main>
+
+</body>
+
+<footer>
+
+    <div class="social">
+
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+
+        <a href="https://whatsapp.com" target="_blank">
+            <img src="images/whatsapp icon.png" alt="whatsapp icon">
+        </a>
+
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+
+            <a href="https://wechat.com" target="_blank">
+                <img src="images/wechat.png" alt="wechat icon">
+
+                <a href="https://workspace.google.com/" target="_blank">
+                    <img src="images/gmail.png" alt="gmail icon">
+                </a>
+
+                <a href="https://youtube.com" target="_blank">
+                    <img src="images/youtube.png" alt="youtube icon">
+                </a>
+
+                <P class="copyright">&copy;2023 <span id="currentdate"></span> | Thomas Fong | Hong Kong</P>
+                <P class="lastModified"><span id="lastModified"></span></P>
+    </div>
+</footer>
+<script src="scripts/chamber.js"></script>
+<script src="scripts/directory.js"></script>
+<script src="scripts/index.js"></script>
+
+
+</html>
