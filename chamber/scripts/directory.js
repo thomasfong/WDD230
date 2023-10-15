@@ -1,4 +1,4 @@
-const url = "https://beatrizmartins3.github.io/wdd230/chamber/data/members.json";
+const url = "https://thomasfong.github.io/wdd230/chamber/data/members.json";
 
 const d = document.querySelector("#direc");
 
@@ -62,3 +62,4 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
+
