@@ -86,6 +86,11 @@ nav.active {
     border-radius: 15px;
 }
 
+.information p {
+    margin-top: 30px;
+    align-items: center;
+}
+
 main.hero {
     grid-template-columns: 1 / span 2;
 }
@@ -127,11 +132,12 @@ h3 {
 #weather-icon img {
     width: 50px;
     margin-bottom: -2%;
+    margin-top: 5%;
 }
 
 .weather {
-    margin-top: 0.5%;
-    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 li a {
