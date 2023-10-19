@@ -44,7 +44,7 @@ form legend {
 
 #submit {
     border: var(--bord);
-    background-color: #fff;
+    background-color: #fff0f3;
     color: black;
     font-family: "Great Vibes", serif;
     font-size: 30;
