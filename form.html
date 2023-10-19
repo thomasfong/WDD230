@@ -36,22 +36,45 @@
     </nav>
 
     <body>
-        <main class="container">
-            <form action="record.html" metod="get">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+        <main>
+            <form method="get" action="record.html" id="applicationForm">
+                <fieldset>
+                    <legend>Application Form</legend>
+                    <label id="top">Username* <input type="text" name="fname" required></label>
+                    <br>
+                    <label for="pass1">Password* <input type="password" id="pass1" name="password" placeholder="king888"
+                            pattern="[a-zA-Z0-9]{8}" required></label>
+                    <br>
+                    <label for="pass2">Confirm Password* <input type="password" id="pass2" name="password"
+                            pattern="[a-zA-Z0-9]{8}" required></label>
+                    <br>
+                    <span id="message"></span>
+                    <br>
+                    <label id="email">Email* <input type="email" name="email" placeholder="@byui.edu"
+                            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
+                            required></label>
 
-                <label for="password">password:</label>
-                <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$>">
+                </fieldset>
+                <fieldset>
+                    <legend>Page Range </legend>
+                    <label for="r"></label>
+                    <div id="rangevalue">1-10</div>
+                    <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </fieldset>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+_]+@byui\.edu$"
-                    title="Please enter a valid email address">
-
-                <label for="page-rating">Page-Rating</label>
-                <input type="range" id="page-rating" name="page-rating" min="1" max="10" step="1">
-
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submit">
             </form>
         </main>
 
@@ -63,5 +86,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/visitors.js"></script>
+    <script src="scripts/form.js"></script>
 
 </html>

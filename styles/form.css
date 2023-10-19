@@ -5,91 +5,52 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Great Vibes", serif;
     font-weight: 200;
 }
 
-/*mobile*/
-header {
-    background-color: #2c5784;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    font-size: 2rem;
-    padding: 0 20px;
-}
-
-nav {
-    background-color: #36454f;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    font-size: 25px;
-
-}
-
-nav ul {
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-}
-
-nav a {
-    display: block;
-    font-weight: 600px;
-    color: #fff;
-    text-align: center;
-    padding: .5rem;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: yellow;
-}
-
-nav.active {
-    background-color: (0, 0, 0, 0.3);
-}
-
-
-
 main {
-    padding: 0 2%;
-    min-height: 20rem;
-}
-
-#container {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    width: 90%;
+    background-color: #DEEFE7;
+    font-family: "Great Vibes", serif;
+    gap: 1rem;
+    margin: 5rem auto;
+    padding: 1rem;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    background-color: #2c7584;
-    margin: 20px 20px 20px 20px;
+body {
+    display: block;
+    margin: 8px;
+    font-size: 28px;
 }
 
-
-footer {
-    margin-top: 1000px;
-    max-width: 640px;
+form fieldset {
+    margin: 2rem 0;
+    border: var(--bord1);
+    font-family: "Great Vibes", serif;
 }
 
-#lastModified {
-    font-size: 18px;
-    color: yellow;
+form input {
+    font-size: 28px;
 }
 
-#mode {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    cursor: grab;
+form legend {
+    color: var(--color);
+    font-family: "Great Vibes", serif;
+}
+
+#submit {
+    border: var(--bord);
+    background-color: #fff;
+    color: black;
+    font-family: "Great Vibes", serif;
+    font-size: 30;
+    border: black solid;
+}
+
+#message {
+    color: blue;
+    font-family: "Great Vibes", serif;
+    padding-left: 5px;
 }
