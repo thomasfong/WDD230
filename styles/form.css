@@ -48,7 +48,9 @@ form legend {
     color: black;
     font-family: "Great Vibes", serif;
     font-size: 30;
+    width: 30%;
     border: black solid;
+    border-radius: 0.5rem;
 }
 
 #message {
