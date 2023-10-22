@@ -4,7 +4,7 @@ document.getElementById("applicationForm").addEventListener("submit", function (
     var mess = document.getElementById("message");
 
     if (p1 !== p2) {
-        mess.textContent = "Passwords are not compatible!";
+        mess.textContent = "password does not match!";
         event.preventDefault();
     } else {
         mess.textContent = "";

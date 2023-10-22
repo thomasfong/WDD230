@@ -71,9 +71,11 @@ nav.active {
     column-gap: 16px;
     background-color: #219ebc;
     text-align: center;
-    margin-top: 38px;
+    margin: 40px auto;
     border: #fb8500 solid;
     border-radius: 15px;
+    width: 600px;
+    height: 500px;
 }
 
 .information {
@@ -81,7 +83,7 @@ nav.active {
     text-align: center;
     font-size: 30px;
     padding: .5rem;
-    margin: 40px 30px 10px;
+    margin: 40px 30px 40px 40px;
     border: #fb8500 solid;
     border-radius: 15px;
 }

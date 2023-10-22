@@ -2,18 +2,16 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/weather.css">
 </head>
 
 <body>
-
     <div id="Home" class="tabcontent">
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/Chamber of Commerce.JPG" alt="funlife Logo">
@@ -26,13 +24,13 @@
         <p>You can learn more about Hong Kong travel information here</p>
     </div>
 
-    <div id="join" class="tabcontent">
-        <h1>join us</h1>
-        <p>Learn about recent chamber of commerce join us</p>
+    <div id="Events" class="tabcontent">
+        <h1>Events</h1>
+        <p>Learn about recent chamber of commerce events</p>
     </div>
 
     <div id="Contact me" class="tabcontent">
-        <h1>Directory</h1>
+        <h1>Contact us</h1>
         <p>If you want to cooperate with us please contact us</p>
     </div>
 
@@ -40,46 +38,79 @@
             href="index.html">Home</a></button>
     <button class="tablink" onclick="openCity('Discover', this, '#4682B4')"><a
             href="discover.html">Discover</a></button>
-    <button class="tablink" onclick="openCity('join us', this, '#fb8500')"><a href="#">join us</a></button>
-    <button class="tablink" onclick="openCity('Contact', this, '#ffb703')"><a href="#">Contact
+    <button class="tablink" onclick="openCity('Events', this, '#fb8500')"><a
+            href="directory.html">Directory</a></button>
+    <button class="tablink" onclick="openCity('Contact', this, '#ffb703')"><a href="join.html">Join
             us</a></button>
+    </header>
 
-    <body>
+    <main class="join-main">
+        <h3>Hong Kong Tourism Developers Chamber Membership Join plan</h1>
+            <section class="sidebar">
+                <section class="card">
+                    <h2>NP Membership</h2>
+                    <ul>
+                        <li>Branches can be opened</li>
+                        <li>Can organize and operate outbound tour groups</li>
+                        <li>Book hotels and air tickets on behalf of customers</li>
+                        <li>Can operate agency retail tour groups</li>
+                    </ul>
+                </section>
+                <section class="card">
+                    <h2>Gold Membership</h2>
+                    <ul>
+                        <li>Can organize and operate outbound tour groups</li>
+                        <li>Book hotels and air tickets on behalf of customers</li>
+                        <li>Agency for retail tour groups</li>
+                        <li>Operate other tourism-related businesses</li>
+                    </ul>
+                </section>
+                <section class="card">
+                    <h2>Silver Membership</h2>
+                    <ul>
+                        <li>Book hotels and air tickets on behalf of customers</li>
+                        <li>Agency for retail tour groups</li>
+                        <li>Event Discounts</li>
+                        <li>Operate other tourism-related businesses</li>
+                    </ul>
+                </section>
+                <section class="card">
+                    <h2>Bronze Membership</h2>
+                    <ul>
+                        <li>Agency for retail tour groups</li>
+                        <li>Operate other tourism-related businesses</li>
+                    </ul>
+                </section>
+            </section>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">*First Name <input type="text" name="fname" required id="fname"></label>
+                    <label class="top">*Last Name <input type="text" name="lname" required id="lname"></label>
+                    <label class="top">Title/Position <input type="text" name="title" id="title"
+                            pattern="[a-zA-Z\- ]{7,}"></label>
+                    <label class="top">*Email Address <input type="email" name="email" id="email" required
+                            placeholder="@email.com"></label>
+                    <label class="top">*Phone Number <input type="tel" name="tel" id="phone" required></label>
+                </fieldset>
 
-        <main>
-            <section class="joinpage">
-                <div id="formmessage"></div>
-                <h1>Join Us</h1>
-                <form method="get" action="thankyou.html">
-                    <fieldset>
-                        <legend>Subscribe Form</legend>
-                        <label class="top">First Name* <input type="text" name="username" id="fname" required></label>
-                        <label class="top">Last Name* <input type="text" name="username" id="lname" required></label>
-                        <label class="top">Position <input type="text" name="position" id="position"
-                                pattern="[A-Za-z -]{7,}"></label>
-                        <label class="top">Email* <input type="email" id="email" name="email"
-                                title="Please enter a valid email address" required
-                                placeholder="youremail@mail.com"></label>
-
-                        <label class="top">Phone* <input type="tel" name="phone" id="phone" required></label>
-                        <label class="top">Business Name* <input type="text" name="bname" id="bname" required></label>>
-
-                        <label><input type="hidden" name="timestamp" id="timestamp" value=""></label>
-
-                        <input type="submit" value="Subscribe" class="submitBtn">
-                    </fieldset>
-
-                </form>
-
-                <div class="ribbon-wrap">
-                    <div class="ribbon">Join us!</div>
-                </div>
-                </div>
-
-
-
-    </body>
-
+                <fieldset>
+                    <legend>Organization Information</legend>
+                    <label class="top">Business/Organization Name* <input type="text" name="org" required
+                            id="orgName"></label>
+                    <div>Membership Level</div>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="top" for="description">Organization Description</label>
+                    <textarea id="description" name="description" rows="5" cols="33"></textarea>
+                    <label><input type="hidden" name="timestamp" id="timestamp"><span
+                            id="timestamp-field"></span></label>
+                </fieldset>
+                <input type="submit" value="Submit" class="submitBtn">
+            </form>
+    </main>
     <footer>
 
         <div class="social">
