@@ -345,6 +345,17 @@ form {
 
 }
 
+form fieldset {
+
+    width: 100%;
+    background-color: #DEEFE7;
+    font-family: "Great Vibes", serif;
+    font-size: x-large;
+    gap: 1rem;
+    margin: 5rem auto;
+    padding: 1rem;
+}
+
 form label.top,
 form div {
     display: block;
