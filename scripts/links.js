@@ -9,7 +9,6 @@ async function getLinks() {
     displayLinks(data.weeks);
 }
 
-
 function displayLinks(weeks) {
 
     weeks.forEach(link => {
@@ -33,7 +32,6 @@ function displayLinks(weeks) {
     });
 
 }
-
 
 getLinks();
 

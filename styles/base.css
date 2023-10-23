@@ -131,15 +131,25 @@ h3 {
     padding: 20px;
 }
 
-#weather-icon img {
-    width: 50px;
-    margin-bottom: -2%;
-    margin-top: 5%;
-}
-
 .weather {
     margin-top: 2%;
     margin-left: 5%;
+    text-align: center;
+}
+
+#current-temp {
+    text-align: center;
+    padding-left: 35px;
+}
+
+#weather-icon {
+    text-align: center;
+    padding-left: 25px;
+}
+
+#visits {
+    text-align: right;
+
 }
 
 li a {

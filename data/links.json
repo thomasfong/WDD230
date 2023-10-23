@@ -1,26 +1,43 @@
 {
-    "week": "Week 1",
-    "link": [
+    "weeks": [
         {
-            "url": "week01/holygrail.html",
-            "title": "HG Layout"
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media"
+                },
+                {
+                    "url": "chamber-site-plan.html",
+                    "title": "The Chamber Site Plan"
+                }
+            ]
         },
         {
-            "url": "week01/media-query.html",
-            "title": "Media"
-        }
-    ]
-}
-{
-    "week": "Week 2",
-    "link": [
-        {
-            "url": "week02/design.html",
-            "title": "Design"
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM"
+                }
+            ]
         },
         {
-            "url": "week02/bom.html",
-            "title": "BOM"
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/bom.html",
+                    "title": ""
+                }
+            ]
         }
     ]
 }
