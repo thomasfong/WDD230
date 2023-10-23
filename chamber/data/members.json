@@ -5,7 +5,7 @@
             "address": "5th Floor, North Tower, Ka Wan Building, 3 Sham Mong Road, Tai Kok Tsui, Kowloon",
             "website": "www.hata.org.hk",
             "phone": "28698624",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/hata.png"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Room 1201, 12th Floor, Tai Shing Commercial Building, 498-500 Nathan Road, Yau Ma Tei, Kowloon, Hong Kong",
             "website": "https://www.fhcta.org/",
             "phone": "27899083",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/fhcta.png"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Room 1101, 11th Floor, Tung Wai Commercial Building, 109-111 Gloucester Road, Wan Chai, Hong Kong",
             "website": "http://www.icta.org.hk/",
             "phone": "28698601",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/icta.png"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Room 1101, 11th Floor, Tung Wai Commercial Building, 109-111 Gloucester Road, Wan Chai, Hong Kong",
             "website": "www.sipa.org.hk",
             "phone": "28698601",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/sipa.png"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Room B-C, 20th Floor, Tung Shing Commercial Building, 28-34 Wing Lok Street, Central, Hong Kong Island",
             "website": "https://ttoa.hk/",
             "phone": "25412033",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/ttoa.png"
         },
         {
@@ -45,7 +45,7 @@
             "address": "4th Floor, CTS Tower, 77 Queen's Road Central, Hong Kong",
             "website": "https://www.hacto.com.hk/web/",
             "phone": "28158162",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/hacto.png"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Room 606A , 6/F, Tower 1, Harbour Centre,1 Hok Cheung Street, Hung Hom, Kowloon",
             "website": "https://otoa.org.hk/",
             "phone": "23880167",
-            "level": "Gold",
+            "level": "Gold Membership",
             "logo": "images/otoa.png"
         }
     ]

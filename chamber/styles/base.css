@@ -379,6 +379,86 @@ fieldset legend label {
 }
 
 /*------------Directory Page------------*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+    background-color: #DEEFE7;
+}
+
+.grid section {
+    margin-left: 2%;
+    margin-bottom: 3%;
+    width: 450px;
+    color: #002333;
+    text-align: center;
+}
+
+.grid img {
+    max-width: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+}
+
+.grid section>* {
+    margin: 0.1rem;
+
+}
+
+.grid h3 {
+    font-family: roboto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section>* {
+    margin: 0 1rem;
+    color: #000;
+}
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+.list section h3 {
+    color: black;
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+    color: rgb(0, 0, 0);
+    background-color: #c4cbd1;
+}
+
+section h3 {
+    font-size: 1.5rem;
+}
+
+section p {
+    font-weight: 600;
+    font-size: smaller;
+}
+
+section a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1rem;
+    color: navy;
+    letter-spacing: 1.1pt;
+}
+
 .directory {
     background-color: #eee;
 }
