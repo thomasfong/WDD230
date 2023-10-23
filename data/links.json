@@ -12,7 +12,7 @@
                     "title": "Media"
                 },
                 {
-                    "url": "chamber-site-plan.html",
+                    "url": "week01/chamber-site-plan.html",
                     "title": "The Chamber Site Plan"
                 }
             ]
@@ -39,7 +39,7 @@
                 },
                 {
                     "url": "week03/bom.html",
-                    "title": "Bom"
+                    "title": "BOM"
                 }
             ]
         },
@@ -51,7 +51,7 @@
                     "title": "Pseudo Class"
                 },
                 {
-                    "url": "https://github.com/thomasfong/wdd230/blob/main/week04/css%20combinators.jpg",
+                    "url": "week04/images/css combinators.jpg",
                     "title": "Combinators"
                 },
                 {
