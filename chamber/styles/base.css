@@ -314,7 +314,7 @@ img {
     border-radius: 15px;
 }
 
-/*---join page---*/
+/*------------Join Page------------*/
 h2 {
     font-family: 'Roboto', sans-serif;
     background-color: #4682B4;
@@ -376,4 +376,24 @@ fieldset legend label {
     font-size: xx-large;
     text-align: center;
 
+}
+
+/*------------Directory Page------------*/
+.directory {
+    background-color: #eee;
+}
+
+.menu {
+    margin: 3%;
+    text-align: center;
+}
+
+#list {
+    width: 130px;
+    height: 80px;
+}
+
+#grid {
+    width: 130px;
+    height: 80px;
 }

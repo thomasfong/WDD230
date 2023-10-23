@@ -1,65 +1,64 @@
-const url = "https://thomasfong.github.io/wdd230/chamber/data/members.json";
+const baseURL = "https://thomasfong.github.io/wdd230/";
 
-const d = document.querySelector("#direc");
+const membersLink = "https://thomasfong.github.io/wdd230/chamber/data/members.json";
 
-async function getMembersData(url) {
-    const response = await fetch(url);
+const cardSection = document.querySelector('.grid');
+
+async function getMembers() {
+    const response = await fetch(membersLink);
     const data = await response.json();
-    //console.table (data.prophets);
+    console.log(data.members)
     displayMembers(data.members);
 }
-getMembersData(url);
-
-const displayMembers = (members) => {
-    members.forEach((member) => {
-        let name = document.createElement('h3');
-        let sec = document.createElement("section");
-        let phone = document.createElement("p");
-        let address = document.createElement("p");
-        let mLevel = document.createElement("p");
-        let yoc = document.createElement("p");
-        let url = document.createElement("a");
-        let image = document.createElement("img");
-
-        name.textContent = `${member.name}  `;
-        phone.textContent = `Phone: ${member.phone}`;
-        address.textContent = `Address: ${member.address}`;
-        mLevel.textContent = `Membership Level: ${member.mLevel}`;
-        yoc.textContent = `Year of Creation: ${member.yearOfCreation}`;
-        url.textContent = ` ${member.url} `;
-        image.setAttribute("src", member.image);
-        image.setAttribute("alt", "Portrait of ${member.name} ");
-        image.setAttribute("loading", "lazy");
-        image.setAttribute("max-width", "100%");
-        image.setAttribute("height", "75px");
 
 
-        sec.appendChild(name);
-        sec.appendChild(phone);
-        sec.appendChild(address);
-        sec.appendChild(mLevel);
-        sec.appendChild(yoc);
-        sec.appendChild(url);
-        sec.appendChild(image);
-        d.appendChild(sec);
+function displayMembers(members) {
+
+    members.forEach(member => {
+        const div = document.createElement('section');
+        const img = document.createElement('img');
+        const address = document.createElement('h3');
+        const phone = document.createElement('h4');
+        const level = document.createElement('p');
+        const website = document.createElement('a');
+        img.setAttribute('src', `${member.logo}`);
+        img.setAttribute('alt', `${member.name} Logo`);
+        address.innerHTML = `${member.address}`
+        phone.innerHTML = `${member.phone}`
+        website.innerHTML = `${member.website}`
+        level.innerHTML = `${member.level}`
+        website.setAttribute('href', `${member.website}`);
+        div.appendChild(img)
+        div.appendChild(address)
+        div.appendChild(phone)
+        div.appendChild(website)
+        div.appendChild(level)
+        cardSection.appendChild(div)
+
+
+
 
     });
+
 }
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 gridbutton.addEventListener("click", () => {
-
+    // example using arrow function
     display.classList.add("grid");
     display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList);
+listbutton.addEventListener("click", showList); // example using defined function
 
 function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
 
+
+getMembers();
