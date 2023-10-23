@@ -9,6 +9,7 @@ async function getLinks() {
     displayLinks(data.weeks);
 }
 
+
 function displayLinks(weeks) {
 
     weeks.forEach(link => {
@@ -20,7 +21,6 @@ function displayLinks(weeks) {
             const a = document.createElement('a');
             a.innerHTML = ` ${url.title} `
             a.setAttribute('href', `${url.url}`);
-            console.log(url);
             li.appendChild(a);
 
         });
@@ -32,6 +32,7 @@ function displayLinks(weeks) {
     });
 
 }
+
 
 getLinks();
 
