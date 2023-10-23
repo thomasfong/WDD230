@@ -93,18 +93,6 @@ nav.active {
     align-items: center;
 }
 
-main.hero {
-    grid-template-columns: 1 / span 2;
-}
-
-main h2 {
-    grid-template-columns: 1 / span 2;
-}
-
-main iframe {
-    grid-template-columns: 1 / span 2;
-}
-
 footer {
     margin-top: 1000px;
     max-width: 640px;
