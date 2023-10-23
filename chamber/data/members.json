@@ -1,51 +1,60 @@
-[
-    {
-        "names": "Hong Kong Association of Travel Agents (HATA)",
-        "addresses": "5th Floor, North Tower, Ka Wan Building, 3 Sham Mong Road, Tai Kok Tsui, Kowloon",
-        "phoneNumbers": 28698624,
-        "websiteUrls": "www.hata.org.hk",
-        "mwmberShipLevel": "Gold"
-    },
-    {
-        "names": "Hong Kong Chinese Business Travel Association (FHCTA)",
-        "addresses": "Room 1201, 12th Floor, Tai Shing Commercial Building, 498-500 Nathan Road, Yau Ma Tei, Kowloon, Hong Kong",
-        "phoneNumbers": 27899083,
-        "websiteUrls": "https://www.fhcta.org/",
-        "mwmberShipLevel": "Gold"
-    },
-    {
-        "names": "International Chinese Business Tourism Association (ICTA)",
-        "addresses": "Room 1101, 11th Floor, Tung Wai Commercial Building, 109-111 Gloucester Road, Wan Chai, Hong Kong",
-        "phoneNumbers": 28698601,
-        "websiteUrls": "www.sipa.org.hk",
-        "mwmberShipLevel": "Gold"
-    },
-    {
-        "names": "International Air Transport Association (SIPA)",
-        "addresses": "Room 1101, 11th Floor, Tung Wai Commercial Building, 109-111 Gloucester Road, Wan Chai, Hong Kong",
-        "phoneNumbers": 2869 8601,
-        "websiteUrls": "www.sipa.org.hk",
-        "mwmberShipLevel": "Gold"
-    },
-    {
-        "names": "Hong Kong and Taiwan Travel Agents Association (TTOA)",
-        "addresses": "Room B-C, 20th Floor, Tung Shing Commercial Building, 28-34 Wing Lok Street, Central, Hong Kong Island",
-        "phoneNumbers": 25412033,
-        "websiteUrls": "https://ttoa.hk/",
-        "mwmberShipLevel": "Gold"
-    },
-    {
-        "names": "Hong Kong China Tourism Association (HACTO)",
-        "addresses": "4th Floor, CTS Tower, 77 Queen's Road Central, Hong Kong",
-        "phoneNumbers": 28158162,
-        "websiteUrls": "https://www.hacto.com.hk/web/",
-        "mwmberShipLevel": "Gold"
-    },
-    {
-        "names": "Hong Kong Outbound Tour Agents Association (OTOA)",
-        "addresses": "Room 606A , 6/F, Tower 1, Harbour Centre,1 Hok Cheung Street, Hung Hom, Kowloon",
-        "phoneNumbers": 23880167,
-        "websiteUrls": "https://otoa.org.hk/",
-        "mwmberShipLevel": "Gold"
-    }
-]
+{
+    "members": [
+        {
+            "names": "Hong Kong Association of Travel Agents (HATA)",
+            "addresses": "5th Floor, North Tower, Ka Wan Building, 3 Sham Mong Road, Tai Kok Tsui, Kowloon",
+            "phoneNumbers": 28698624,
+            "websiteUrls": "www.hata.org.hk",
+            "img": "images/hata.png",
+            "mwmberShipLevel": "Gold"
+        },
+        {
+            "names": "Hong Kong Chinese Business Travel Association (FHCTA)",
+            "addresses": "Room 1201, 12th Floor, Tai Shing Commercial Building, 498-500 Nathan Road, Yau Ma Tei, Kowloon, Hong Kong",
+            "phoneNumbers": 27899083,
+            "websiteUrls": "https://www.fhcta.org/",
+            "img": "images/fhcta.png",
+            "mwmberShipLevel": "Gold"
+        },
+        {
+            "names": "International Chinese Business Tourism Association (ICTA)",
+            "addresses": "Room 1101, 11th Floor, Tung Wai Commercial Building, 109-111 Gloucester Road, Wan Chai, Hong Kong",
+            "phoneNumbers": 28698601,
+            "websiteUrls": "http://www.icta.org.hk/",
+            "img": "images/icta.png",
+            "mwmberShipLevel": "Gold"
+        },
+        {
+            "names": "International Air Transport Association (SIPA)",
+            "addresses": "Room 1101, 11th Floor, Tung Wai Commercial Building, 109-111 Gloucester Road, Wan Chai, Hong Kong",
+            "phoneNumbers": 28698601,
+            "websiteUrls": "www.sipa.org.hk",
+            "img": "images/sipa.png",
+            "mwmberShipLevel": "Gold"
+        },
+        {
+            "names": "Hong Kong and Taiwan Travel Agents Association (TTOA)",
+            "addresses": "Room B-C, 20th Floor, Tung Shing Commercial Building, 28-34 Wing Lok Street, Central, Hong Kong Island",
+            "phoneNumbers": 25412033,
+            "websiteUrls": "https://ttoa.hk/",
+            "img": "images/ttoa.png",
+            "mwmberShipLevel": "Gold"
+        },
+        {
+            "names": "Hong Kong China Tourism Association (HACTO)",
+            "addresses": "4th Floor, CTS Tower, 77 Queen's Road Central, Hong Kong",
+            "phoneNumbers": 28158162,
+            "websiteUrls": "https://www.hacto.com.hk/web/",
+            "img": "images/hacto.png",
+            "mwmberShipLevel": "Gold"
+        },
+        {
+            "names": "Hong Kong Outbound Tour Agents Association (OTOA)",
+            "addresses": "Room 606A , 6/F, Tower 1, Harbour Centre,1 Hok Cheung Street, Hung Hom, Kowloon",
+            "phoneNumbers": 23880167,
+            "websiteUrls": "https://otoa.org.hk/",
+            "img": "images/otoa.png",
+            "mwmberShipLevel": "Gold"
+        }
+    ]
+}
